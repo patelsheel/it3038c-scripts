@@ -11,3 +11,4 @@ ONVENTCURRENT=$(echo $DATA | jq '.[0].onVentilatorCurrently')
 TODAY=$(date)
 
 echo "ON $TODAY, in $STATES states there were $POSITIVE positive and $NEGATIVE negative COVID cases. With $HOSPITALIZED hospitalized and $ONVENTCURRENT on Ventilaor Currently."
+
