@@ -30,6 +30,9 @@ $userName = getUsrName
 #Write-Host("User name is $userName")  #Code Here
 
 #Code to display it all together.
-Write-Host("This machine's IP is $IP. User is $userName.
+$Body = "This machine's IP is $IP. User is $userName.
  Hostname is $hName. PowerShell version is $Version.
-  Today's date is $Date.")
+  Today's date is $Date."
+  
+
+ Send-MailMessage -From "sheelpatel1801@gmail.com" -Subject "IT3038C Windows SysInfo" -To "botheaj@ucmail.uc.edu" -Body $Body -SmtpServer smt.gmail.com -Port 587 -UseSsl -Credential (Get-Credential)
