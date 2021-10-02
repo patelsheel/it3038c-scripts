@@ -47,3 +47,6 @@ elif user_input == 4:
     print(num1 + " / " + num2 + " = " + div(num1, num2))
 else:
     print("Invalid input. Try again!")
+
+
+# Add a loop for calculating again...
