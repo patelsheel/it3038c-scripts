@@ -39,8 +39,8 @@ def main():
 
         time.sleep(1)
 
-        num1 = int(input("Enter first number: "))
-        num2 = int(input("Enter second number: "))
+        num1 = int(input("Enter your first number: "))
+        num2 = int(input("Enter  your second number: "))
 
         print(num1, "+", num2, "=", add(num1, num2))
         print(num1, "-", num2, "=", sub(num1, num2))
