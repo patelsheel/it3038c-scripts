@@ -24,29 +24,31 @@ def div(x, y):
     return (x/y)
 
 
-print("Choose form the following functions: ")
-print("1 for Addition")
-print("2 for Subtraction")
-print("3 for Multiplication")
-print("4 for Division")
+def main():
 
-time.sleep(2)
+    while True:
+        print("Hello, welcome to the calculator app!")
 
-user_input = int(input("Select operation: 1,2,3,4: "))
+        time.sleep(1)
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+        print("The app will calculate all 4 operations itself \n i.e. addition, subtraction, multiplication, division. ")
 
-if user_input == 1:
-    print(num1 + " + " + num2 + " = " + add(num1, num2))
-elif user_input == 2:
-    print(num1 + " - " + num2 + " = " + sub(num1, num2))
-elif user_input == 3:
-    print(num1 + " * " + num2 + " = " + mul(num1, num2))
-elif user_input == 4:
-    print(num1 + " / " + num2 + " = " + div(num1, num2))
-else:
-    print("Invalid input. Try again!")
+        time.sleep(1)
+
+        print("Ready or not here we go...")
+
+        time.sleep(1)
+
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+
+        print(num1, "+", num2, "=", add(num1, num2))
+        print(num1, "-", num2, "=", sub(num1, num2))
+        print(num1, "*", num2, "=", mul(num1, num2))
+        print(num1, "/", num2, "=", div(num1, num2))
+        calculate_again = input("Do you want to again? [yes/no]")
+        if calculate_again == "no" or "N" or "No" or "n":
+            exit("GoodBye!")
 
 
-# Add a loop for calculating again...
+main()
