@@ -42,6 +42,8 @@ def main():
         num1 = int(input("Enter your first number: "))
         num2 = int(input("Enter  your second number: "))
 
+# Operations...
+
         print(num1, "+", num2, "=", add(num1, num2))
         print(num1, "-", num2, "=", sub(num1, num2))
         print(num1, "*", num2, "=", mul(num1, num2))
@@ -51,4 +53,5 @@ def main():
             exit("GoodBye!")
 
 
+# Running the program...
 main()
