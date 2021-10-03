@@ -9,7 +9,7 @@
 
 \*\*\* Reference to links which helped me with Calculator App!
 
-(https://www.geeksforgeeks.org/make-simple-calculator-using-python/)
+https://www.geeksforgeeks.org/make-simple-calculator-using-python/
 
 From the above link, I implimented the definition function. which helped me with all four operations.
 
