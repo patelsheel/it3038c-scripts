@@ -1,0 +1,1 @@
+﻿Convert-PDFToText -FilePath "$PSScriptRoot\Output\OutputDocument.pdf"
