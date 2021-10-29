@@ -1,1 +1,0 @@
-﻿Split-PDF -FilePath "$PSScriptRoot\Output\OutputDocument.pdf" -OutputFolder 'C:\it3038c-scripts\Plugins'
