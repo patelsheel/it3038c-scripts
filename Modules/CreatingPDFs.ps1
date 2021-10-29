@@ -1,4 +1,4 @@
-﻿#Creating First PDF
+﻿#Creating First PDF...
 New-PDF {
     New-PDFText -Text 'Hello ', 'World' -Font HELVETICA, TIMES_ITALIC -FontColor GRAY, BLUE -FontBold $true, $false, $true
     New-PDFText -Text 'Testing adding text. ' -Font HELVETICA -FontColor RED
@@ -17,7 +17,7 @@ New-PDF {
     }
 } -FilePath "$PSScriptRoot\Example01_Simple.pdf" -Show
 
-#Creating Second PDF
+#Creating Second PDF...
 New-PDF {
     New-PDFText -Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,'
     New-PDFText -Text ' sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
