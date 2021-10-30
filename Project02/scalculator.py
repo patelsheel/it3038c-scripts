@@ -19,7 +19,7 @@ def Main():
     print("After you choose the operation based on the operation, you'll be presented to input the numbers of your choice.")
     time.sleep(2)
     print(""" 
-        press -  
+        Type the number for the function -  
         1 - Addition
         2 - Subtraction
         3 - Multiplication
