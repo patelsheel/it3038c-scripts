@@ -80,4 +80,5 @@ def Main():
         x = int(input("Enter your number: "))
         print(math.log(x))
 
+
 Main()
