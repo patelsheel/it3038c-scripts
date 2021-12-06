@@ -1,4 +1,4 @@
-#### Project 03- Scripting Language
+# Project 03- Scripting Language
 
 For Project 3 I have decided to make a system info app on command line interface.
 
@@ -14,7 +14,7 @@ My app returns basic system infromation like:
 
 To get the Hardware Information I used the `platform` library and for the rest I was able to incorporate the `psutil` library.
 
-## Instructions to run the program:
+#### Instructions to run the program:
 
 1. Find the `sysinfo.py` file and open it.
 2. Run the script using python.
